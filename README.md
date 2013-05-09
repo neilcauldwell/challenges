@@ -2,8 +2,8 @@
 A collection of code challenges completed using services like [codeeval.com](http://codeeval.com) and others from various interviews / prestige
 
 ### Ruby:
-* [Multiplication Prime Number's Terminal Table](https://github.com/karlfreeman/multi-prime-table)
-* [Lorem Ipsum Word Source](https://github.com/karlfreeman/loremipsumwordsource)
+* [Multiplication Prime Number's Terminal Table](https://github.com/karlfreeman/challenges/tree/master/ruby/multi-prime-table)
+* [Lorem Ipsum Word Source](https://github.com/karlfreeman/challenges/tree/master/ruby/loremipsumwordsource)
 * [Fizz Buzz](https://github.com/karlfreeman/challenges/tree/master/ruby/fizz-buzz)
 * [Prefix Expressions](https://github.com/karlfreeman/challenges/tree/master/ruby/prefix-expressions)
 * [Prime Palindrome](https://github.com/karlfreeman/challenges/tree/master/ruby/prime-palindrome)

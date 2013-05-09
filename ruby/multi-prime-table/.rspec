@@ -1,0 +1,4 @@
+--color
+--order random
+--format RSpec::Smart::Formatter
+--format Nc
