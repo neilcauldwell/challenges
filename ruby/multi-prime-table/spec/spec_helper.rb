@@ -5,8 +5,8 @@ RSpec.configure do |config|
   config.filter_run :focus
 end
 
-require 'thor'
-require 'thor/group'
-load './lib/multi-prime-table.thor'
-require 'awesome_print'
-require 'pry'
+require "thor"
+require "thor/group"
+load "./lib/multi-prime-table.thor"
+require "awesome_print"
+require "pry"

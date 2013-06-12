@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-require 'thor'
-require 'thor/group'
-require 'terminal-table'
+require "thor"
+require "thor/group"
+require "terminal-table"
 
 module Multi
   module Prime
@@ -17,7 +17,7 @@ module Multi
           prime_numbers = generate_prime_numbers(total)
 
           # Clone the prime_numbers, then unshift ( as to not have the headings first column full )
-          headings = prime_numbers.clone.unshift('')
+          headings = prime_numbers.clone.unshift("")
 
           # Create a terminal-table
           table = Terminal::Table.new :headings => headings, :title => "Generate #{total} prime numbers in a table" do |t|

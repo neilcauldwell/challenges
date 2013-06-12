@@ -5,6 +5,6 @@ RSpec.configure do |config|
   config.filter_run :focus
 end
 
-require 'loremipsumwordsource'
-require 'awesome_print'
-require 'pry'
+require "loremipsumwordsource"
+require "awesome_print"
+require "pry"

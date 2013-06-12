@@ -1,5 +1,5 @@
-require 'multi-prime-table/version'
-require 'multi-prime-table/run'
+require "multi-prime-table/version"
+require "multi-prime-table/run"
 
 module Multi
   module Prime

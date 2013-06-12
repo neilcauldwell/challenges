@@ -89,7 +89,7 @@ module Loremipsumwordsource
       # split them ( incase a word has multiple consonants )
       # add them to
       words_with_consonants.each do |elem|
-        elem[:word].gsub(/[aeiou]/i,'').split('').each do |consonant|
+        elem[:word].gsub(/[aeiou]/i,"").split("").each do |consonant|
           consonants << { :consonant => consonant }
         end
       end

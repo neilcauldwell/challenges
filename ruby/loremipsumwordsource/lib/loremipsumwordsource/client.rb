@@ -1,4 +1,4 @@
-require 'loremipsumwordsource/words'
+require "loremipsumwordsource/words"
 
 module Loremipsumwordsource
 
@@ -20,8 +20,8 @@ module Loremipsumwordsource
     #
     # @param source_path [String] a path to source, used by the WordSource
     def load(source_path)
-      self.file = File.new(source_path, 'rb')
-      self.source = File.open(file.path, 'rb') { |f| f.read.split(',') }
+      self.file = File.new(source_path, "rb")
+      self.source = File.open(file.path, "rb") { |f| f.read.split(",") }
     end
 
     #

@@ -1,5 +1,5 @@
-require 'loremipsumwordsource/client'
-require 'loremipsumwordsource/version'
+require "loremipsumwordsource/client"
+require "loremipsumwordsource/version"
 
 module Loremipsumwordsource
 
