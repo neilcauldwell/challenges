@@ -33,9 +33,8 @@ module Multi
                 row << prime_numbers[x] * prime_numbers[y]
               end
 
-              # Add the row as well as a seperator for every row, except the last
+              # Add the row
               t << row
-              t << :separator unless x == (prime_numbers.length - 1)
 
             end
 
