@@ -20,7 +20,7 @@ module Multi
           headings = prime_numbers.clone.unshift("")
 
           # Create a terminal-table
-          table = Terminal::Table.new :headings => headings, :title => "Generate #{total} prime numbers in a table" do |t|
+          table = Terminal::Table.new :headings => headings do |t|
 
             # For each prime number, create a row
             prime_numbers.length.times do |x|
