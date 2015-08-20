@@ -1,6 +1,6 @@
 ## README
 To run completed prime number terminal table challenge:
-- Ruby "git clone git@github.com:neilcauldwell/challenges.git"
+- Run "git clone git@github.com:neilcauldwell/challenges.git"
 - Change in to cloned directory with "cd challenges"
 - Change in to prime number directory with "cd ruby/multi-prime-table"
 - Run "bundle install"
