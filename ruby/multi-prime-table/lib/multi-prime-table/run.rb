@@ -22,6 +22,9 @@ module Multi
           # Create a terminal-table
           table = Terminal::Table.new :headings => headings do |t|
 
+            # Update the style
+            t.style = {:border_i => "-"}
+
             # For each prime number, create a row
             prime_numbers.length.times do |x|
 
